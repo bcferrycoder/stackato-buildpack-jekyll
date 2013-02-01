@@ -21,3 +21,8 @@ variable in a top-level `stackato.yml` file. For example:
 
 
 Push the application to the target with `stackato push -n`. 
+
+### Differences in this fork
+
+The original version wasn't working with my jekyll configuration. I had to tweak the bin script and add 
+a pre-stating hook to get this to work. Needs further research.
